@@ -39,6 +39,12 @@ header {
     top: -15px;
     left: -66px;
 }
+
+.input-button-meny {
+    display: none;
+}
+
+
 .header-menu-list {
     max-width: 637px;
     display: flex;
@@ -1333,8 +1339,8 @@ details[open] summary:before {
         width: 50px;
         height: 50px;
         position: absolute;
-        top: -5px;
-        right: 17px;
+        top: 3px;
+        right: 25px;
         cursor: pointer;
         z-index: 2;
         opacity: 0;
