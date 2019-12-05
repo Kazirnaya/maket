@@ -1,3 +1,76 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/montserrat-extralight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/montserrat-light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/montserrat-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/montserrat-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/montserrat-semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/montserrat/montserrat-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/raleway-light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/raleway-regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/raleway-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/raleway-semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/raleway-bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/raleway/raleway-extrabold.ttf);
+    font-weight: 800;
+}
+
+
 body {
     margin: 0;
 }
@@ -28,7 +101,7 @@ header {
     margin: 0 0 0 22%;
     text-decoration: none;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -1.36px;
@@ -38,6 +111,14 @@ header {
     position: absolute;
     top: -15px;
     left: -66px;
+}
+
+.header-logo:hover {
+    filter: brightness(70%);
+}
+
+.header-logo:active {
+    filter: brightness(30%);
 }
 
 .input-button-meny {
@@ -53,14 +134,14 @@ header {
     margin: 0;
     margin-left: 12%;
     margin-right: 63px;
-    padding:8px 0;
+    padding: 12px 0;
     list-style-type: none;
 }
 
 .header-menu-list-link {
     text-decoration: none;
     color: white;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     margin-left: 15px;
@@ -131,6 +212,14 @@ input[type="search"] {
     padding-top: 95px;
 }
 
+.slider-left:hover, .slider-right:hover {
+    filter: brightness(70%);
+}
+
+.slider-left:active, .slider-right:active {
+    filter: brightness(30%);
+}
+
 .slider-left {
     margin-left: 8%;
 }
@@ -147,7 +236,7 @@ input[type="search"] {
     display: block;
     width: 100%;
     text-align: center;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 36px;
     font-weight: 500;
 }
@@ -156,7 +245,7 @@ input[type="search"] {
     display: block;
     width: 100%;
     text-align: center;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 52px;
     font-weight: 800;
 }
@@ -166,7 +255,7 @@ input[type="search"] {
     display: block;
     width: 100%;
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 300;
 }
@@ -198,7 +287,7 @@ input[type="search"] {
 }
 
 .slider-txt-link-txt {
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 14px;
     font-weight: 800;
     margin: auto;
@@ -326,7 +415,7 @@ input[type="search"] {
 .features-title {
     width: 100%;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -351,7 +440,7 @@ input[type="search"] {
 .block-with-img-title {
     display: block;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 30px;
     font-weight: 600;
     padding-bottom: 25px;
@@ -361,7 +450,7 @@ input[type="search"] {
     display: block;
     margin: 0 auto;
     padding-bottom: 40px;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 300;
     max-width: 770px;
@@ -398,7 +487,7 @@ input[type="search"] {
 .advertising-title {
     margin: 0 0 5px 0;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 28px;
     font-weight: 400;
 }
@@ -410,7 +499,7 @@ input[type="search"] {
 .advertising-txt {
     margin: 0;
     color: #615855;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 18px;
     font-weight: 300;
 }
@@ -441,7 +530,7 @@ input[type="search"] {
 
 .advertising-link-txt {
     display: block;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 14px;
     font-weight: 800;
     width: 100%;
@@ -459,7 +548,7 @@ input[type="search"] {
     width: 100%;
     padding-bottom: 25px;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -469,7 +558,7 @@ input[type="search"] {
     margin: 0 auto;
     padding-bottom: 40px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -492,7 +581,7 @@ input[type="search"] {
     padding: 10px 20px;
     background-color: #ffffff;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
@@ -594,7 +683,7 @@ input[type="search"] {
 .project-txt-wrapper-title {
     display: block;
     color: #c7b299;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 20px;
     font-weight: 500;
 }
@@ -602,7 +691,7 @@ input[type="search"] {
 .project-txt-wrapper-txt {
     display: block;
     color: #d1d1d1;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -645,7 +734,7 @@ input[type="search"] {
     border-radius: 5px;
     border: 4px solid transparent;
     border-bottom: 4px solid #736357;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 14px;
     font-weight: 800;
     text-align: center;
@@ -708,13 +797,13 @@ object-fit: cover;
 
 .video-description-title {
     display: block;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 30px;
     font-weight: 500;
 }
 
 .video-description-txt {
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -722,7 +811,7 @@ object-fit: cover;
 
 .video-description > time{
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -746,7 +835,7 @@ object-fit: cover;
 
 .for-devices-txt-title {
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 40px;
@@ -755,7 +844,7 @@ object-fit: cover;
 .for-devices-txt-txt {
     margin: 0 0 40px 0;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -765,7 +854,7 @@ object-fit: cover;
     padding-left: 100px;
     margin-bottom: 12px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 300;
     width: 100%;
@@ -832,7 +921,7 @@ details[open] summary:before {
 
 .statistic-block-number {
     display: block;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 48px;
     font-weight: 200;
     line-height: 36px;
@@ -844,7 +933,7 @@ details[open] summary:before {
     display:block;
     margin-bottom: 25px;
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -878,7 +967,7 @@ details[open] summary:before {
     display: block;
     margin-bottom: 30px;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -889,7 +978,7 @@ details[open] summary:before {
     max-width: 760px;
     margin: 0 auto 40px;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -954,7 +1043,7 @@ details[open] summary:before {
     color: white;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
     text-align: center;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 24px;
     font-weight: 300;
     line-height: 20px;
@@ -987,7 +1076,7 @@ details[open] summary:before {
 .recent-block-title {
     display: block;
     color: #555555;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 20px;
@@ -996,7 +1085,7 @@ details[open] summary:before {
 .recent-block-txt {
     display: block;
     color: #8c8c8c;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -1005,7 +1094,7 @@ details[open] summary:before {
 
 .recent-block-link {
     color: #c7b299;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
@@ -1107,7 +1196,7 @@ details[open] summary:before {
 .main-footer-logo {
     display: block;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 34px;
     font-weight: 400;
     letter-spacing: -1.36px;
@@ -1125,7 +1214,7 @@ details[open] summary:before {
 .main-footer-txt {
     display: block;
     color: #555555;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
@@ -1185,7 +1274,7 @@ details[open] summary:before {
 .main-footer-link {
     margin: 0;
     color: #d1d1d1;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -1214,7 +1303,7 @@ details[open] summary:before {
 .main-footer-title {
     display: block;
     color: #ffffff;
-    font-family: Raleway;
+    font-family: raleway;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -1223,7 +1312,7 @@ details[open] summary:before {
 
 .main-footer-data {
     color: #363636;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 12px;
     font-weight: 300;
     line-height: 20px;
@@ -1245,6 +1334,14 @@ details[open] summary:before {
     margin: 0 0 10px 0;
 }
 
+.widget-link:hover {
+    filter: brightness(70%);
+}
+
+.widget-link:active {
+    filter: brightness(30%);
+}
+
 .footer {
     max-width: 1170px;
     min-height: 111px;
@@ -1254,7 +1351,7 @@ details[open] summary:before {
     align-items: center;
     flex-wrap: inherit;
     color: #555555;
-    font-family: Montserrat;
+    font-family: montserrat;
     font-size: 13px;
     font-weight: 300;
     line-height: 20px;
@@ -1417,19 +1514,12 @@ details[open] summary:before {
         background-color: #35353565;
         padding: 3% 0 3% 0;
         margin-bottom: 2%;
-        font-family: "Montserrat light","Arial",Sans-serif;
+        font-family: montserrat, Sans-serif;
         font-size: 14px;
+        font-family: 200;
         color: #fff;
         border-radius: 10px;
     }
-
-
-    .header-menu-list a {
-
-    }
-
-
-
 
 
 
